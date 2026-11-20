@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b12">
+    <title>TSB Digital Ecosystem V5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside id="sidebar">
+
+        <div class="brand">
+            <div class="logo">TSB</div>
+
+            <div class="brand-info">
+                <b>TSB ECOSYSTEM</b>
+                <small>ULTIMATE OS · V5</small>
+            </div>
+        </div>
+
+        <div id="nav"></div>
+
+        <div class="sidefoot">
+            <span>● SYSTEM ONLINE</span>
+            <small>LOCAL WORKSPACE</small>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <header>
+
+            <button id="menu" class="secondary">
+                ☰
+            </button>
+
+            <div class="page-heading">
+                <small>THE SUPER BOYS STUDIO</small>
+                <h2 id="title">Dashboard</h2>
+            </div>
+
+            <div class="headtools">
+                <span id="clock"></span>
+
+                <button onclick="backup()">
+                    BACKUP
+                </button>
+            </div>
+
+        </header>
+
+
+        <!-- DYNAMIC PAGE CONTENT -->
+        <div id="content"></div>
+
+
+        <!-- FOOTER -->
+        <footer>
+            Designed &amp; Developed by tsb - team leader Taj Sasmith
+        </footer>
+
+    </main>
+
+</div>
+
+
+<!-- MODAL WINDOW -->
+<div id="modal" class="modal hidden">
+
+    <div class="modalbox">
+
+        <button class="close" onclick="closeModal()">
+            ×
+        </button>
+
+        <h3 id="modalTitle"></h3>
+
+        <div id="modalBody"></div>
+
+    </div>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
